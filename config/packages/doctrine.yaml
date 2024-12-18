@@ -8,7 +8,7 @@ doctrine:
 
         profiling_collect_backtrace: '%kernel.debug%'
         use_savepoints: true
-         mapping_types:
+        mapping_types:
             enum: string
     orm:
         auto_generate_proxy_classes: true
